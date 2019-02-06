@@ -60,7 +60,10 @@ export default {
       type: Boolean,
       default: true
     },
-    textStyle: Object
+    textStyle: {
+      type: Object,
+      default: ()=>({})
+    }
   },
   data: () => ({
     show: false,
